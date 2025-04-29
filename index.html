@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <script src="https://js.cx/libs/animate.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="mountain-content">
+    <div class="m1"></div>
+    <div class="m2"></div>
+  </div>
+  
+  <div class="sun-content">
+    <!-- 
+    <span id="ball" class="sun"></span> -->
+     
+    <span hidden id="cloudCover"></span>
+    <span id="ball2" class="">
+    </span>
+  </div>
+  <div class="content-clock">
+    <div class="digital-clock">
+      <div class="weather-content">
+        <div class="seccion-weather l" id="gradosConta">
+          <img src="termostato.png" alt="" class="icon-wheater">
+          <span id="gradosTemp">Load...</span>
+        </div>
+        <div class="seccion-weather r" id="precipitacionConta">
+          <img src="nube_lluviosa.jpg" alt="" class="icon-wheater">
+          <span id="porcentajePre">Load...</span>
+        </div>
+      </div>
+  
+
+      <span id="digitalClockTime">
+        <span class='seccion-digital-clock' id="hoursClock"></span>:<span class='seccion-digital-clock' id="minutesClock"></span>:<span class='seccion-digital-clock' id="secondsClock"></span><span class="meridiano-clock" id="meridianoClock"></span>
+      </span>
+    </div>
+  </div>
+
+
+    <script src="animation-sun-moon.js"></script>
+    <script src="weather-api.js"></script>
+    <script src="digital-clock.js"></script>
+</body>
+
+</html>
