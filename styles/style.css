@@ -15,7 +15,7 @@ body{
 }
 
 .mountain-content .m1{
-  background-image: url(mountain.png);
+  background-image: url(../images/mountain.png);
   background-size:cover;
   display: block;
   position: absolute;
@@ -25,7 +25,7 @@ body{
   right: 0;
 }
 .mountain-content .m2{
-  background-image: url(mountain.png);
+  background-image: url(../images/mountain.png);
   background-size:cover;
   display: block;
   position: absolute;
