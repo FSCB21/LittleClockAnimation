@@ -8,35 +8,35 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-        "src": "/images/icons/clock-72-72.png",
+        "src": "/LittleClockAnimation/images/icons/clock-72-72.png",
         "type": "image/png", "sizes": "72x72"
         },
         {
-        "src": "/images/icons/clock-96-96.png",
+        "src": "/LittleClockAnimation/images/icons/clock-96-96.png",
         "type": "image/png", "sizes": "96x96"
         },
         {
-        "src": "/images/icons/clock-128-128.png",
+        "src": "/LittleClockAnimation/images/icons/clock-128-128.png",
         "type": "image/png","sizes": "128x128"
         },
         {
-        "src": "/images/icons/clock-144-144.png",
+        "src": "/LittleClockAnimation/images/icons/clock-144-144.png",
         "type": "image/png", "sizes": "144x144"
         },
         {
-        "src": "/images/icons/clock-152-152.png",
+        "src": "/LittleClockAnimation/images/icons/clock-152-152.png",
         "type": "image/png", "sizes": "152x152"
         },
         {
-        "src": "/images/icons/clock-192-192.png",
+        "src": "/LittleClockAnimation/images/icons/clock-192-192.png",
         "type": "image/png", "sizes": "192x192"
         },
         {
-        "src": "/images/icons/clock-384-384.png",
+        "src": "/LittleClockAnimation/images/icons/clock-384-384.png",
         "type": "image/png", "sizes": "384x384"
         },
         {
-        "src": "/images/icons/clock-512-512.png",
+        "src": "/LittleClockAnimation/images/icons/clock-512-512.png",
         "type": "image/png", "sizes": "512x512"
         }
     ]
