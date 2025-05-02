@@ -1,7 +1,7 @@
 {
     "name": "My Little Clock",
     "short_name": "MyLittleClock",
-    "start_url": "index.html",
+    "start_url": "/LittleClockAnimation/",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",

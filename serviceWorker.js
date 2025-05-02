@@ -1,16 +1,16 @@
 const staticMyLittleClok = "my-little-clock-site-v1"
 const assets = [
-  "/",
-  "/index.html",
-  "/styles/style.css",
-  "/javascript/app.js",
-  "/javascript/animation-sun-moon.js",
-  "/javascript/digital-clock.js",
-  "/javascript/digital-clock.js",
-  "/javascript/weather-api.js",
-  "/images/mountain.png",
-  "/images/nube_lluviosa.jpg",
-  "/images/termostato.png"
+  "/LittleClockAnimation/",
+  "/LittleClockAnimation/index.html",
+  "/LittleClockAnimation/styles/style.css",
+  "/LittleClockAnimation/javascript/app.js",
+  "/LittleClockAnimation/javascript/animation-sun-moon.js",
+  "/LittleClockAnimation/javascript/digital-clock.js",
+  "/LittleClockAnimation/javascript/digital-clock.js",
+  "/LittleClockAnimation/javascript/weather-api.js",
+  "/LittleClockAnimation/images/mountain.png",
+  "/LittleClockAnimation/images/nube_lluviosa.jpg",
+  "/LittleClockAnimation/images/termostato.png"
 ]
 
 self.addEventListener("install", installEvent => {
