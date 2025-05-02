@@ -10,10 +10,6 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("beforeinstallprompt", eventHandler, errorHandler);
 
   
-}
-
-
-
   function errorHandler(e){
       console.log('error: ' + e);
   }
@@ -27,3 +23,6 @@ if ("serviceWorker" in navigator) {
   function instalar() {
     if (beforeInstallEvent) beforeInstallPrompt.prompt();
   }
+  
+}
+
