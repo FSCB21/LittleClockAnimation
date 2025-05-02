@@ -6,23 +6,23 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("service worker not registered", err))
   })
 
-  var beforeInstallPrompt = null;
-  window.addEventListener("beforeinstallprompt", eventHandler, errorHandler);
-
-  
-  function errorHandler(e){
-      console.log('error: ' + e);
-  }
-  
-  
-  function eventHandler(event){
-    beforeInstallPrompt = event;
-    document.getElementById('installBtn').removeAttribute('disabled');
-  }
-  
-  function instalar() {
-    if (beforeInstallEvent) beforeInstallPrompt.prompt();
-  }
   
 }
 
+var beforeInstallPrompt = null;
+window.addEventListener("beforeinstallprompt", eventHandler, errorHandler);
+
+
+function errorHandler(e){
+    console.log('error: ' + e);
+}
+
+
+function eventHandler(event){
+  beforeInstallPrompt = event;
+  document.getElementById('installBtn').removeAttribute('disabled');
+}
+
+function instalar() {
+  if (beforeInstallEvent) beforeInstallPrompt.prompt();
+}
